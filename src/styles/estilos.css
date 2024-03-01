@@ -1,0 +1,49 @@
+body{
+
+}
+.nombreEmpresa{
+   height: 20% ;
+   width:  98%;
+   display: flex;
+   margin-left: 1%;
+   justify-content: center;
+   border:solid 5% black ;
+   background-color: brown;
+}
+.marcas{
+    height: 5%;
+    width: 98%;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 0.9%;
+    margin-top: 1%;
+    
+    }
+.nombreMarca{
+    border: solid 2px black;
+    display: flex;
+    margin-left: 0.9%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    background-color: rgb(177, 96, 96);
+    
+    }
+    footer{
+        height: 5%;
+        width: 98%;
+        border: solid 2px black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 0.9%;
+        margin-top: 2%;
+    }
+    .imagen{
+        width: 15%;
+        height: 35%;
+        justify-content: space-between;
+        flex-direction:row ;
+
+    }
