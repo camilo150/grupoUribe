@@ -35,9 +35,9 @@ main{
     background-color: rgb(4, 33, 34);
 }
 .listaMarcas{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     position: relative;
-    top: 20%;
+    top: 12%;
     height: 9%;
     width: 100%;
     flex-direction: row;
@@ -46,15 +46,84 @@ main{
 }
 
 .marca{
-    height: 6.2vh;
-    width: 16vh;
-    border: solid black 2px;
+    height: 8vh;
+    width: 8vw;
+    position: relative;
+    top: 2%;
+
 
 }
+
 .informacion{
-    display: flex;
-    background-color: azure;
-    flex-direction: row;
-    justify-content: space-between;
-    outline-color: black;
+display: flex;
+justify-content: space-between;
+background-color: rgb(255, 255, 255);
+border-left: solid 1px;
+
+
 }
+.contactos{
+    background-color: rgb(207, 206, 206);
+    position: relative;
+    top: 20%;
+    flex-direction: row;
+    display: flex;
+    border-radius: 5%;
+    border: solid 2px;
+    top: 2vh;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.carousel {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    display: flex;
+  }
+  
+  .carousel-img {
+    display: block;
+    width: 40vw;
+    height: 50vh;
+    position:relative;
+    
+  }
+  
+  .active {
+    display: block;
+    
+  }
+  
+  .carousel-btn {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: rgb(255, 0, 0);
+    justify-content: space-evenly;
+    
+  }
+  
+  .prev {
+    left: 1%;
+  }
+  
+  .next {
+    right: 1%;
+  }
+  .carousel a{
+position: relative;
+display: inline-block;
+overflow: hidden;
+top: 15%;
+left: 20%;
+
+  }
