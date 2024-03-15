@@ -210,6 +210,9 @@ main{
   .contactos {
     margin-bottom: 0px; /* Espacio entre los elementos */
   }
-
+  .contenedor{
+    flex-wrap: wrap;
+    display: flex;
+  }
 
   
