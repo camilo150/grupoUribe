@@ -96,21 +96,69 @@ main{
     width: 50%; 
     margin: 20px;
   }
-  
+  .contenidomotherCare  {
+    width: 50% ;
+    margin: 20px;
+  } 
+  .contenidonafNaf  {
+    width: 50% ;
+    margin: 20px;
+  } 
+  .contenidochevignon  {
+    width: 50% ;
+    margin: 20px;
+  } 
   .imagenRopaAMERICANINO {
     width: 15vw;
     height: auto;
+  }
+  
+  .imagenRopamotherCare {
+    width: 15vw;
+    height: auto ;
+  }
+  .imagenRopanafNaf {
+    width: 15vw;
+    height: auto ;
+  }
+  .imagenRopachevignon {
+    width: 15vw;
+    height: auto ;
   }
   
   label {
     display: block;
   }
   
-  .comprarAMERICANINO {
+  .comprarAMERCANINO {
+    margin-top: 5%;
+    width:100%;
+  }
+  .comprarmotherCare {
+    margin-top: 5%;
+    width:100%;
+  }
+  .comprarnafNaf {
+    margin-top: 5%;
+    width:100%;
+  }
+  .comprarchevignon {
     margin-top: 5%;
     width:100%;
   }
   .RopasAMERICANINO{
+    display: block;
+    flex-wrap: wrap;
+  }
+  .RopasmotherCare{ 
+    display: block;
+    flex-wrap: wrap;
+  }
+  .RopasnafNaf { 
+    display: block;
+    flex-wrap: wrap;
+  }
+  .Ropaschevignon { 
     display: block;
     flex-wrap: wrap;
   }
@@ -121,6 +169,30 @@ main{
     margin-left: 5%;
     margin-top: 10%;
   }
+  #motherCare{
+    display: flex;
+    height: 100%;
+    width: 0%;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  #nafNaf{
+    display: flex;
+    height: 100%;
+    width: 0%;
+    margin-left: 5%;
+    margin-top: 10%;
+
+  }
+
+  #chevignon{
+    display: flex;
+    height: 100%;
+    width: 0%;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+
   body {
     display: flex;
     flex-direction: column;
