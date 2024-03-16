@@ -114,8 +114,8 @@ main{
   }
   
   .imagenRopamotherCare {
-    width: 15vw;
-    height: auto ;
+    width: 198.750px;
+    height: 278.250px;
   }
   .imagenRopanafNaf {
     width: 15vw;
@@ -127,7 +127,10 @@ main{
   }
   
   label {
-    display: block;
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    width: 165%;
   }
   
   .comprarAMERCANINO {
@@ -137,6 +140,7 @@ main{
   .comprarmotherCare {
     margin-top: 5%;
     width:100%;
+    margin-left: 35%;
   }
   .comprarnafNaf {
     margin-top: 5%;
