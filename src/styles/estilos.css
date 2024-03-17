@@ -114,6 +114,9 @@ main{
   }
   
   .imagenRopamotherCare {
+    width: 198.750px;
+    height: 278.250px;
+   }
     height: 278.250px ;
     width: 198.750px;
   }
@@ -129,6 +132,7 @@ main{
   label {
     display: flex;
     justify-content: center;
+    flex-direction: column ;
     flex-direction: column;
     width: 165%;
   }
@@ -141,6 +145,7 @@ main{
   .comprarmotherCare {
     margin-top:5%;
     width:100%;
+    margin-left: 35%;
     margin-left:35%;
   }
   .comprarnafNaf {
@@ -215,11 +220,9 @@ main{
    border-top: solid 1px black;
   }
   .contactos {
-    margin-bottom: 0px; /* Espacio entre los elementos */
+    margin-bottom: 0px;
   }
   .contenedor{
     flex-wrap: wrap;
     display: flex;
   }
-
-  
