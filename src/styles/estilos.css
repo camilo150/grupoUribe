@@ -116,39 +116,47 @@ main{
   .imagenRopamotherCare {
     width: 198.750px;
     height: 278.250px;
+   }
+    height: 278.250px ;
+    width: 198.750px;
   }
   .imagenRopanafNaf {
     width: 15vw;
     height: auto ;
   }
   .imagenRopachevignon {
-    width: 15vw;
-    height: auto ;
+    width: 198.750px;
+    height: 233.281px;
   }
   
   label {
     display: flex;
     justify-content: center;
     flex-direction: column ;
+    flex-direction: column;
     width: 165%;
   }
   
   .comprarAMERCANINO {
-    margin-top: 5%;
+    margin-top:5%;
     width:100%;
+    margin-left:35%;
   }
   .comprarmotherCare {
-    margin-top: 5%;
+    margin-top:5%;
     width:100%;
     margin-left: 35%;
+    margin-left:35%;
   }
   .comprarnafNaf {
     margin-top: 5%;
     width:100%;
+    margin-left: 35%;
   }
   .comprarchevignon {
     margin-top: 5%;
     width:100%;
+    margin-left: 35%;
   }
   .RopasAMERICANINO{
     display: block;
@@ -212,11 +220,9 @@ main{
    border-top: solid 1px black;
   }
   .contactos {
-    margin-bottom: 0px; /* Espacio entre los elementos */
+    margin-bottom: 0px;
   }
   .contenedor{
     flex-wrap: wrap;
     display: flex;
   }
-
-  
